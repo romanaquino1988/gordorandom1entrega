@@ -1,0 +1,346 @@
+/* font-family: 'Roboto', sans-serif; */
+
+html{
+    font-size: 80%;
+}
+/* Body */
+.body{
+    background-color: whitesmoke;
+    }
+    /* Header */
+.header_portada{
+    max-width: 100%;
+    max-height: 50%;
+    border: 2px solid;
+ 
+}
+h1{
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    font-size: 5em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute; 
+    top: 30px;
+    left: 20%;
+    right: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.header_hacetupedido{
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.8rem;
+    padding: 5px 5px;
+    position: absolute;
+    top: 350px;
+    left: 38%;
+    right: 38%;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+}   
+/* Barra navegación */
+body nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+body nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav_logo{
+    background-color: whitesmoke;
+    padding-left: 65px;
+    padding-right: 65px;
+    max-width: 2.65em;
+    max-height: 2.65em;
+    position: fixed;
+    top: 0;
+    margin-top: auto;
+    left: 0;
+    border: 1px solid;
+}
+.nav_barranavegacion{
+    font-size: 1.8em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: whitesmoke;
+    list-style: none;
+    display: inline;
+    position: fixed;
+    top: 0;
+    margin-top: auto;
+    left: 15%;
+    right: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+}
+.nav_redessociales{
+    background-color: whitesmoke;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 2em;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    position: fixed;
+    top: 0; 
+    right: 0;
+    border: 1px solid;
+}
+.linea{
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 500px;
+    padding: 0;
+    margin: 20px auto 20px auto;
+}
+/* Section */
+.section_titulos{
+    color: black;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 29%;
+    margin-right: 29%;
+       
+}
+body main section article p img{
+    max-width: 20em;
+    max-height: 30em;
+    display: inline;
+    border: 1px solid;
+    border-radius: 10px;
+}
+body main section article p{
+    color: black;
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+  
+
+}
+body main section article h2{
+    color: black;
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+  
+    
+}
+.section_pediloaca{
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    padding: 5px 5px;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+    left: 80px;
+    right: 80px;
+    margin-left: 46%;
+    margin-right: 46%;
+}
+.comofunciona_imagenes{
+    max-width: 15em;
+    max-height: 23em;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 42%;
+    margin-right: 42%;
+    border: 1px solid;
+    border-radius: 10px;
+  
+}
+body aside p{
+    color: black;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+body aside h2{
+    color: black;
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    
+ 
+}
+.aside_titulos{
+    color: black;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 25%;
+    margin-right: 25%;
+       
+}
+#aside_tabla{
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+/* footer */
+footer h2{
+    color: black;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+footer h3{
+    color: black;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+footer ol li{
+    color: black;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    text-align: center;
+}
+footer ul li{
+    list-style: none;
+}
+.linea2{
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 100%;
+    padding: 0;
+    margin: 20px auto 20px auto;
+}
+.footer_redessociales{
+    font-size: 2.5em;
+    text-decoration: none;
+    margin-left: 90%;
+    margin-right: 0%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    display: inline-flex;
+}
+footer ul li a{
+    color: black;
+}
+footer iframe{
+    margin-left: 37%;
+    margin-right: 37%;
+}
+/* Titulos de cada pagina */
+.titulos_paginas{
+    color: black;
+    font-style: normal;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 63px;
+    padding-top: 20px;
+}
+/* Página quiénes somos */
+.img_quienessomos{
+    max-width: 40em;
+    max-height: 30em;
+    display: inline;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+.texto_paginas{
+    color: black;
+    background-color: whitesmoke;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3em;
+    margin: 20px 200px;
+}
+/* Página catering eventos */
+.catering_presupuesto{
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    padding: 5px 5px;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+    left: 80px;
+    right: 80px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.video_evento{
+    max-width: 40em;
+    max-height: 30em;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.video_comofunciona{
+    max-width: 40em;
+    max-height: 30em;
+    display: inline;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.comofunciona_compra{
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    padding: 5px 5px;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+    left: 80px;
+    right: 80px;
+    margin-left: 41%;
+    margin-right: 41%;
+}
+.menu_compra{
+    color: white;
+    background-color: blueviolet;
+    position: fixed;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    padding: 5px 5px;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+    left: 80px;
+    right: 80px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
